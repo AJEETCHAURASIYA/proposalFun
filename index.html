@@ -42,6 +42,7 @@
             cursor: pointer;
             transition: top 0.5, left 0.5s;
             margin-top: 20px;
+            margin-left: 100px;
             color: #fff;
 
         }
@@ -85,16 +86,16 @@
 </head>
 
 <body>
-    <div class="container text-center">
+    <div class="container">
         <div class="row">
           <div class="col" class="bg-danger">
           </div>
-          <div class="col" class="align-center">
+          <div class="col">
             <div id="container">
                 <div class="box">
-                    <h1>Do You Love me? <img src="R.jpeg" alt=""></h1>
-                    <button id="target" onclick="moveTarget()">No</button>
-                    <button id="yes" onclick="yesalert()">Yes</button>
+                    <h1 class="text-center">Do You Love me? <img src="R.jpeg" alt=""></h1>
+                    <button id="target" onclick="moveTarget()" class="col" >No</button>
+                    <button id="yes" onclick="yesalert()" class="col">Yes</button>
                 </div>
             </div>
           </div>
