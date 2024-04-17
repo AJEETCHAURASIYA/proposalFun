@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>propose</title>
+    <link rel="stylesheet" href="bootstrap.css">
     <style>
         * {
             margin: 0;
@@ -84,13 +85,23 @@
 </head>
 
 <body>
-    <div id="container">
-        <div class="box">
-            <h1>Do You Love me? <img src="R.jpeg" alt=""></h1>
-            <button id="target" onclick="moveTarget()">No</button>
-            <button id="yes" onclick="yesalert()">Yes</button>
+    <div class="container text-center">
+        <div class="row">
+          <div class="col" class="bg-danger">
+          </div>
+          <div class="col" class="align-center">
+            <div id="container">
+                <div class="box">
+                    <h1>Do You Love me? <img src="R.jpeg" alt=""></h1>
+                    <button id="target" onclick="moveTarget()">No</button>
+                    <button id="yes" onclick="yesalert()">Yes</button>
+                </div>
+            </div>
+          </div>
+          <div class="col" class="height-100px">
+          </div>
         </div>
-    </div>
+      </div>
 </body>
 
 </html>
